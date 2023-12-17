@@ -506,12 +506,22 @@
 			"name": "Library class/type",
 			"scope": [
 				"support.type",
-				"support.class",
 				"source.go storage.type"
 			],
 			"settings": {
 				"foreground": "#39bae6"
 			}
+		},
+		{
+			"name": "JSX Tags",
+			"scope": [
+				"support.class",
+				"support.class.component.tsx"
+			  ],
+			  "settings": {
+				"foreground": "#49C088",
+				"fontStyle": "bold"
+			  }
 		},
 		{
 			"name": "Decorators/annotation",
